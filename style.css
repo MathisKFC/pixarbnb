@@ -1,0 +1,95 @@
+h1{
+	color: saddlebrown;
+	font-size: 260%;
+	font-family: ;baskerville;
+	transform: translate(25%,150%);
+
+}
+
+img{
+	width: 500px;
+}
+
+#banners{
+	width:100%;
+	border-radius: 20px;
+	postion: relative;
+	z-index: 1;
+}
+
+#logo{
+	width:30%;
+	transform: translate(0,-30%);
+}
+
+#menu-icons{
+	width: 2%;
+	transform: translate(0,-20%);
+}
+
+#user-icons{
+	width: 5%;
+}
+
+body{
+	text-align: center;
+}
+
+h2{
+	font-size: 200%;
+	padding: 20px;
+
+}
+
+p{
+	font-size: 150%;
+	color: black;
+}
+
+.cards{
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+	Border-radius:20px;
+
+}
+
+li{
+	list-style-type: none;
+	padding: 30px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#top_banner{
+	display: flex;
+}
+
+.banner_things{
+	postion: absolute;
+	z-index: 2;
+}
+
+#top_banner > div {
+	transform: translate(42%,60%);
+}
+
+#h22{
+	background-color: ghostwhite;
+	border-radius: 20px;
+	padding: 5px;
+	transform: translate(35%,1000%);
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navigation-menu{
+	display: flex;
+	justify-content: space-evenly;
+}
